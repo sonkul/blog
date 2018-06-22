@@ -1,0 +1,1 @@
+var disqus_config=function(){this.page.url="http://techdigger.me/assets/js/disqus_comments.js",this.page.identifier="http://techdigger.me/assets/js/disqus_comments.js"};!function(){var t=document,e=t.createElement("script");e.src="https://.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}();
