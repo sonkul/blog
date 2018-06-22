@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 RUN apt-get update && \
     apt-get install ruby ruby-dev make build-essential \
-    zlib1g-dev python nodejs vim autoconf locales -y
+    zlib1g-dev python nodejs vim autoconf locales git -y
 
 RUN gem install jekyll bundler
 
@@ -16,6 +16,9 @@ RUN echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && \
 ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
+
+RUN git config --global user.email "nasonkul@gmail.com"
+RUN git config --global user.name "Nikhil Sonkul"
 
 EXPOSE 4000
 
