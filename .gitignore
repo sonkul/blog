@@ -3,6 +3,7 @@
 /temp/
 /node_modules/
 /.sass-cache/
+.jekyll-metadata
 /.jekyll-metadata/
 /Gemfile.lock
 **/*/*.bak
