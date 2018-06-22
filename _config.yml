@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://techdigger.me" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/webpage" # the subpath of your site, e.g. /blog
+url: "http://sonkul.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 ### BEGIN - This property enables and disables template features. Use to taste.
