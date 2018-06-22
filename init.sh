@@ -112,7 +112,7 @@ function _deploy_site(){
   _git_checkout $built
   git add .
   git  commit -m "$commit - $(date)"
-  git push origin -u $built
+  git push origin -u $built --force
   msg_finish "Done!"
 }
 
